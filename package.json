@@ -1,0 +1,18 @@
+{
+  "name": "stacher",
+  "version": "0.0.1",
+  "description": "Draws mustaches on faces. Uses google vision API for facial recognition",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "exit 0"
+  },
+  "author": "grese",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^0.21.0",
+    "canvas": "^1.6.11",
+    "js-yaml": "^3.12.0",
+    "yargs": "^12.0.1"
+  }
+}
